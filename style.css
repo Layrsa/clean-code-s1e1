@@ -1,36 +1,36 @@
 /* Basic Style */
 
-.main-page {
+.app-page {
   background-color: #f8f8f8;
   color: #333;
   font-family: lato, sans-serif;
 }
 
-.aaa {
+.app-header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa img {
+.app-header img {
   width: 100%;
 }
 
-.aaa .more_inf {
+.app-header .more-inf {
   font-family: fantasy, cursive;
 }
 
 
 @media (max-width:768px) {
 
-  .aaa {
+  .app-header {
     text-align: center;
   }
 
 }
 
-.centered-main-page-element {
+.main-page {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -110,7 +110,7 @@ label[for="new-task"] {
   margin: 0 0 20px;
 }
 
-input#new-task {
+input #new-task {
   width: 318px;
 }
 
@@ -140,7 +140,7 @@ li > label {
   width: 226px;
 }
 
-li >    input[type="text"] {
+li > input[type="text"] {
   width: 226px;
 }
 
@@ -167,11 +167,11 @@ button.delete img:hover {
   display: none;
 }
 
-.list li.editMode input[type="text"] {
+.list li.edit-mode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-.list li.editMode label {
+.list li.edit-mode label {
   display: none;
 }
